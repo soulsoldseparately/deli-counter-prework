@@ -17,9 +17,6 @@ def line(katz_deli)
       counter += 1
     end
     puts init_str + str_to_build
-    
-    #katz_deli.each_with_index {|idx, item| str_to_build += "#{(idx + 1).to_s}. #{item}" }
-    #puts init_str + str_to_build
   end
 end
 
